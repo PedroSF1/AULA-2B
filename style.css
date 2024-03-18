@@ -1,4 +1,23 @@
-body{
+*{
+margin: 0;
+padding: 0;
+}
+
+.cabecalho{
     background-color:black ;
     color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 10%;
+}
+
+.nome-da-loja{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 44px;
 }
