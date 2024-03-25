@@ -21,3 +21,54 @@ padding: 0;
     margin: 0 16px;
     font-size: 44px;
 }
+.search-box{
+    position: absolute;
+    top: 5%;
+    left: 92%;
+    transform: translate(-95%, -8%);
+    background: black;
+    height: 35px;
+    padding: 7px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lupa-branca{
+    display: none;
+    width:40%;
+}
+.lupa-azul{
+    width:40%;
+}
+.search-text{
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    width: 0;
+    padding: 0;
+    transition: 0.4s;
+}
+.search-btn{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70%;
+    cursor: pointer;
+}
+.search-box:hover > .search-text{
+    width: 320px;
+    padding-left: 20px;
+}
+.search-box:hover > .search-btn{
+    background: gray;
+}
+.search-box:hover > .search-btn .lupa-azul{
+    display: none;
+}
+.search-box:hover > .search-btn .lupa-branca{
+    display:block;
+}
