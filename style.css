@@ -26,7 +26,7 @@ padding: 0;
     top: 5%;
     left: 92%;
     transform: translate(-95%, -8%);
-    background: black;
+    background: gray;
     height: 35px;
     padding: 7px;
     border-radius: 50px;
@@ -36,10 +36,10 @@ padding: 0;
 }
 .lupa-branca{
     display: none;
-    width:40%;
+    width:60%;
 }
 .lupa-azul{
-    width:40%;
+    width:60%;
 }
 .search-text{
     background: none;
@@ -71,4 +71,17 @@ padding: 0;
 }
 .search-box:hover > .search-btn .lupa-branca{
     display:block;
+}
+::-webkit-input-placeholder{
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: gray;
+}
+body{
+    background-color:gray;
+}
+.imagem-jogo{
+    width: 50%;
+    margin: auto;
+    padding: auto;
 }
